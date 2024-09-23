@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+    char color;
+    printf("enter the colour:");
+    scanf("%c",&color);
+    if(color=='r')
+    {
+        printf("Stop.");
+    }
+    else if(color=='y')
+    {
+        printf("Get ready");
+    }
+    else if(color=='g')
+    {
+        printf("Go");
+    }
+}a
